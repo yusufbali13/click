@@ -4,8 +4,31 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
 h1 {
+  font-size: 5rem;
 }
 
 button {
+  padding: 2rem 5rem;
+  background-color: red;
+  color: white;
+  font-size: 3rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 5px 10px rgb(22, 19, 19, 0.359);
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(0.95);
 }
